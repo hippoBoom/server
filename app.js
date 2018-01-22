@@ -9,6 +9,7 @@ var history = require('connect-history-api-fallback');
 var index = require('./routes/index');
 var users = require('./routes/users');
 var faqs = require('./routes/faqs');
+var works = require('./routes/works')
 
 var app = express();
 // app.use(history());
@@ -28,6 +29,7 @@ app.use(express.static(path.join(__dirname, 'views')));
 app.use('/', index);
 app.use('/users', users);
 app.use('/faqs', faqs);
+app.use('/works', works);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
