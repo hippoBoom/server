@@ -16,7 +16,20 @@ mongoose.connection.on('disconnected', () => {
 })
 
 router.get('/', (req, res, next) => {
+    let page = parseInt(req.param('page'))
+    let pageSize = parseInt(req.param('pageSize'))
+    let sort = req.param('sort')
+    let skip = (page - 1) * pageSize
+
+    let params = {}
+    let docLength;
     Works.find({}, (err, doc) => {
+        docLength = doc.length
+    })
+    let worksModel = Works.find(params).skip(skip).limit(pageSize)
+    // sort Api 1是升序 -1是降序
+    worksModel.sort({'postId': sort})
+    worksModel.exec({}, (err, doc) => {
         if (err) {
             res.json({
                 status: 0,
@@ -27,7 +40,7 @@ router.get('/', (req, res, next) => {
                 status: 1,
                 msg: 'sucess',
                 result: {
-                    count: doc.length,
+                    count: docLength,
                     list: doc
                 }
             })

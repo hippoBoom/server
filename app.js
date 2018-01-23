@@ -6,8 +6,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var history = require('connect-history-api-fallback');
 
-var index = require('./routes/index');
-var users = require('./routes/users');
+
 var faqs = require('./routes/faqs');
 var works = require('./routes/works')
 
@@ -26,8 +25,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(cookieParser());
 // app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'views')));
-app.use('/', index);
-app.use('/users', users);
+
 app.use('/faqs', faqs);
 app.use('/works', works);
 
