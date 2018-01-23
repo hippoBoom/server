@@ -3,7 +3,7 @@ var router = express.Router();
 var mongoose = require('mongoose');
 var Works = require('../models/works');
 
-mongoose.connect('mongodb://127.0.0.1:36911/cdb')
+mongoose.connect('mongodb://47.104.156.124:36911/cdb')
 
 mongoose.connection.on('connected', () => {
     console.log("MongoDB connected success.")
