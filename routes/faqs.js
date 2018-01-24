@@ -16,22 +16,34 @@ mongoose.connection.on('disconnected', () => {
 })
 
 router.get('/', (req, res, next) => {
+    let page = parseInt(req.param('page'))
+    let pageSize = parseInt(req.param('pageSize'))
+    let sort = parseInt(req.param('sort'))
+    let skip = (page - 1) * pageSize
+
+    let params = {}
+
+    let faqsModel = Faqs.find(params).skip(skip).limit(pageSize)
+    faqsModel.sort({'postId': sort})
     Faqs.find({}, (err, doc) => {
-        if (err) {
-            res.json({
-                status: 0,
-                msg: err.message
-            })
-        } else {
-            res.json({
-                status: 1,
-                msg: 'success',
-                result: {
-                    count: doc.length,
-                    list: doc
-                }
-            })
-        }
+        let docLength = doc.length
+        faqsModel.exec((err, doc) => {
+            if (err) {
+                res.json({
+                    status: 0,
+                    msg: err.message
+                })
+            } else {
+                res.json({
+                    status: 1,
+                    msg: 'success',
+                    result: {
+                        count: docLength,
+                        list: doc
+                    }
+                })
+            }
+        })
     })
 
 })
