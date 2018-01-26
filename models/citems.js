@@ -1,7 +1,7 @@
 let mongoose = require('mongoose')
 let Schema = mongoose.Schema
 
-let cnewsList = new Schema({
+let citemsList = new Schema({
     "prodId": Number,
     "prodTitle": String,
     "keyword": String,
@@ -9,4 +9,4 @@ let cnewsList = new Schema({
     "publishDate": String
 })
 
-module.exports = mongoose.model('Cnew', cnewsList)
+module.exports = mongoose.model('Citem', citemsList)
