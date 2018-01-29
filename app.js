@@ -11,6 +11,8 @@ var faqs = require('./routes/faqs');
 var works = require('./routes/works')
 var citems = require('./routes/citems')
 var casebgs = require('./routes/casebgs')
+var products = require('./routes/products')
+var prodinfos = require('./routes/prodinfos')
 
 var app = express();
 // app.use(history());
@@ -32,6 +34,9 @@ app.use('/faqs', faqs);
 app.use('/works', works);
 app.use('/citems', citems);
 app.use('/casebgs', casebgs);
+app.use('/products', products);
+app.use('/prodinfos', prodinfos);
+
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
