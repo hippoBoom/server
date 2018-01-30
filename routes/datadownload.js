@@ -12,15 +12,19 @@ router.get('/', (req, res, next) => {
     let fileList = fs.readdirSync(filePath);
 
     fileList.forEach((item, index) => {
-        let stat = fs.statSync(`${filePath}/${item}`)
+        let url = `${filePath}/${item}`
+        let stat = fs.statSync(url)
         stat.name = item
+        stat.url = url
         tempArr.push(stat)
     })
 
     res.json({
         status: 1,
         msg: 'success',
-        list: tempArr
+        result: {
+            list: tempArr
+        }
     })
 
 })
