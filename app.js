@@ -4,7 +4,7 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-// var history = require('connect-history-api-fallback');
+var history = require('connect-history-api-fallback');
 
 
 var faqs = require('./routes/faqs');
@@ -13,9 +13,10 @@ var citems = require('./routes/citems')
 var casebgs = require('./routes/casebgs')
 var products = require('./routes/products')
 var prodinfos = require('./routes/prodinfos')
+var datadownload = require('./routes/datadownload')
 
 var app = express();
-// app.use(history());
+app.use(history());
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -36,6 +37,7 @@ app.use('/citems', citems);
 app.use('/casebgs', casebgs);
 app.use('/products', products);
 app.use('/prodinfos', prodinfos);
+app.use('/datadownload', datadownload);
 
 
 // catch 404 and forward to error handler

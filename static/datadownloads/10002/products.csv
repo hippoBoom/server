@@ -1,0 +1,56 @@
+﻿prodId,series,category,models,character,size,inputPort,outputPort
+10000,矩阵,HDMI 4K,HS-32*32,支持32路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,6U,32路，4路/卡,32路，4路/卡
+10001,矩阵,HDMI 4K,HS-32*32,支持33路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,6U,32路，4路/卡,32路，4路/卡
+10002,矩阵,HDMI 4K,HS-32*32,支持34路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,6U,32路，4路/卡,32路，4路/卡
+10003,矩阵,HDMI 4K,HS-32*32,支持35路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,6U,32路，4路/卡,32路，4路/卡
+10004,矩阵,HDMI 4K,HS-32*32,支持36路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,6U,32路，4路/卡,32路，4路/卡
+10005,矩阵,HDMI 4K,HS-32*32,支持37路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,6U,32路，4路/卡,32路，4路/卡
+10006,矩阵,HDMI 4K,HS-32*32,支持38路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,6U,32路，4路/卡,32路，4路/卡
+10007,混合矩阵,16系列,HS-16*16,支持39路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,6U,32路，4路/卡,32路，4路/卡
+10008,混合矩阵,16系列,HS-16*16,支持39路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,6U,32路，4路/卡,32路，4路/卡
+10009,混合矩阵,16系列,HS-16*16,支持39路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,6U,32路，4路/卡,32路，4路/卡
+10010,混合矩阵,16系列,HS-16*16,支持39路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,6U,32路，4路/卡,32路，4路/卡
+10011,混合矩阵,16系列,HS-16*16,支持39路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,6U,32路，4路/卡,32路，4路/卡
+10012,混合矩阵,16系列,HS-16*16,支持39路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,6U,32路，4路/卡,32路，4路/卡
+10013,混合矩阵,64系列,HS-asdsad,支持40路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,6U,32路，4路/卡,32路，4路/卡
+10014,混合矩阵,64系列,HS-asdsad,支持40路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,6U,32路，4路/卡,32路，4路/卡
+10015,混合矩阵,64系列,HS-asdsad,支持40路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,6U,32路，4路/卡,32路，4路/卡
+10016,混合矩阵,64系列,HS-asdsad,支持40路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,6U,32路，4路/卡,32路，4路/卡
+10017,混合矩阵,64系列,HS-asdsad,支持40路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,6U,32路，4路/卡,32路，4路/卡
+10018,混合矩阵,32系列,HS-3232,支持41路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,6U,32路，4路/卡,32路，4路/卡
+10017,混合矩阵,32系列,HS-3232,支持41路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,6U,32路，4路/卡,32路，4路/卡
+10018,混合矩阵,32系列,HS-3233,支持42路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,7U,32路，4路/卡,32路，4路/卡
+10019,混合矩阵,32系列,HS-3234,支持43路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,8U,32路，4路/卡,32路，4路/卡
+10020,混合矩阵,32系列,HS-3235,支持44路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,9U,32路，4路/卡,32路，4路/卡
+10021,混合矩阵,32系列,HS-3236,支持45路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,10U,32路，4路/卡,32路，4路/卡
+10022,混合矩阵,32系列,HS-3237,支持46路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,11U,32路，4路/卡,32路，4路/卡
+10023,混合矩阵,32系列,HS-3238,支持47路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,12U,32路，4路/卡,32路，4路/卡
+10024,矩阵,HDMI,HS-3239,支持48路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,13U,32路，4路/卡,32路，4路/卡
+10025,矩阵,3G-SDI,HS-3240,支持49路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,14U,32路，4路/卡,32路，4路/卡
+10026,矩阵,DVI,HS-3241,支持50路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,15U,32路，4路/卡,32路，4路/卡
+10027,矩阵,VGA,HS-3242,支持51路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,16U,32路，4路/卡,32路，4路/卡
+10028,矩阵,RGB,HS-3243,支持52路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,17U,32路，4路/卡,32路，4路/卡
+10029,矩阵,AV,HS-3244,支持53路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,18U,32路，4路/卡,32路，4路/卡
+10030,切换器,HDMI 4K,Hssadasd,支持54路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,11U,32路，4路/卡,32路，4路/卡
+10031,切换器,HDMI,HS-3245,支持54路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,19U,32路，4路/卡,32路，4路/卡
+10032,切换器,3G-SDI,HS-3246,支持55路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,20U,32路，4路/卡,32路，4路/卡
+10033,切换器,DVI,HS-3247,支持56路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,21U,32路，4路/卡,32路，4路/卡
+10034,切换器,VGA,HS-3248,支持57路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,22U,32路，4路/卡,32路，4路/卡
+10035,切换器,RGB,HS-3249,支持58路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,23U,32路，4路/卡,32路，4路/卡
+10036,切换器,AV,HS-3250,支持59路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,24U,32路，4路/卡,32路，4路/卡
+10037,分配器,HDMI 4K,Hssadasd,支持54路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,11U,32路，4路/卡,32路，4路/卡
+10038,分配器,HDMI,HS-3251,支持54路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,19U,32路，4路/卡,32路，4路/卡
+10039,分配器,3G-SDI,HS-3252,支持55路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,20U,32路，4路/卡,32路，4路/卡
+10040,分配器,DVI,HS-3253,支持56路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,21U,32路，4路/卡,32路，4路/卡
+10041,分配器,VGA,HS-3254,支持57路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,22U,32路，4路/卡,32路，4路/卡
+10042,分配器,RGB,HS-3255,支持58路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,23U,32路，4路/卡,32路，4路/卡
+10043,分配器,AV,HS-3256,支持59路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,24U,32路，4路/卡,32路，4路/卡
+10044,转换器,SDI HDMI,HS-3257,支持60路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,25U,32路，4路/卡,32路，4路/卡
+10045,转换器,VGA DVI/HDMI,HS-3258,支持61路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,26U,32路，4路/卡,32路，4路/卡
+10046,转换器,AV VGA,HS-3259,支持62路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,27U,32路，4路/卡,32路，4路/卡
+10047,传输器,光纤传输,HS-3260,支持63路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,28U,32路，4路/卡,32路，4路/卡
+10048,传输器,网线传输,HS-3261,支持64路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,29U,32路，4路/卡,32路，4路/卡
+10049,其他,音频分离器,HS-3262,支持65路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,30U,32路，4路/卡,32路，4路/卡
+10050,其他,长线驱动器,HS-3263,支持66路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,31U,32路，4路/卡,32路，4路/卡
+10051,其他,多媒体接收盒,HS-3264,支持67路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,32U,32路，4路/卡,32路，4路/卡
+10052,其他,LED处理器,HS-3265,支持68路VGA、DVI、网口、光口、双链、HDMI、数/模音频、HDbaseT、Displayport信号的输入和输出,33U,32路，4路/卡,32路，4路/卡
