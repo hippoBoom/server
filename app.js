@@ -14,6 +14,7 @@ var casebgs = require('./routes/casebgs')
 var products = require('./routes/products')
 var prodinfos = require('./routes/prodinfos')
 var datadownload = require('./routes/datadownload')
+var servicedownload = require('./routes/servicedownload')
 
 var app = express();
 // app.use(history());
@@ -38,6 +39,7 @@ app.use('/casebgs', casebgs);
 app.use('/products', products);
 app.use('/prodinfos', prodinfos);
 app.use('/datadownload', datadownload);
+app.use('/servicedownload', servicedownload);
 
 
 // catch 404 and forward to error handler

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="display1">
+    <input id="input1" type="text" placeholder="please enter text">
+    <button id="btn" type="button">submit</button>
+</div>
+<div id="testContent"></div>
+<script src="jquery-3.2.1.js"></script>
+<script src="eventsource.js"></script>
+<script>
+    var ticker = new EventSource("chat.php");
+    if (window.ActiveXObject || "ActiveXObject" in window) {
+        $("#testContent").append("这是IE浏览器或是webkit内核的浏览器");
+    } else {
+        $("#testContent").append("这是非IE内核的浏览器");
+    }
+    $("#btn").on('click', function () {
+        var json = {
+            name: "testData",
+            value: $("#input1").val()
+        }
+        $.get("cgi-bin/lig_cgi", json, function (data) {
+            console.log(data);
+            console.log("connect success");
+            $("#display1").append("<p>" + data + "</p>");
+        }, "json");
+    });
+    ticker.onmessage = function (e) {
+        var type = e.type;
+        var data = e.data;
+        console.log(type, data);
+        $("#testContent").append("<p>接收到的数据是" + data + "</p>");
+    };
+
+
+</script>
+</body>
+</html>

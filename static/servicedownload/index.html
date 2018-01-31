@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="test.js"></script>
+</head>
+<body>
+<div id="testContent"></div>
+<script src="eventsource.js"></script>
+<script>
+    var ticker = new EventSource("chat.php");
+    ticker.onmessage = function (e) {
+        var type = e.type;
+        var data = e.data;
+        console.log(type, data);
+        document.getElementById("testContent").innerHTML = "<p>接收到的数据是" + data + "</p>";
+    };
+
+
+</script>
+</body>
+</html>
