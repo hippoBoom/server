@@ -4,7 +4,7 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-// var history = require('connect-history-api-fallback');
+var history = require('connect-history-api-fallback');
 
 
 var faqs = require('./routes/faqs');
@@ -17,7 +17,7 @@ var datadownload = require('./routes/datadownload')
 var servicedownload = require('./routes/servicedownload')
 
 var app = express();
-// app.use(history());
+app.use(history());
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
