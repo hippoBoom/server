@@ -41,4 +41,37 @@ router.get('/', (req, res, next) => {
     })
 })
 
+router.post('/search', (req, res, next) => {
+    let param = {
+        models: req.body.models
+    }
+    Products.find(param, (err, doc) => {
+        if (err) {
+            res.json({
+                status: 1,
+                msg: err.message
+            })
+        } else {
+            if (doc) {
+                res.json({
+                    status: 0,
+                    msg: '',
+                    result: {
+                        list: doc
+                    }
+                })
+            } else {
+                res.json({
+                    status: 0,
+                    msg: '抱歉为搜索到',
+                    result: {
+                        list: doc
+                    }
+                })
+            }
+        }
+    })
+
+})
+
 module.exports = router;
